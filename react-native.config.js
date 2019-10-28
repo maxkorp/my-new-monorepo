@@ -3,5 +3,8 @@ module.exports = {
     android: {
       sourceDir: './packages/mobileProfessional/android',
     },
+    ios: {
+      project: 'mobileProfessional/ios/Example.xcodeproj'
+    },
   },
 };
