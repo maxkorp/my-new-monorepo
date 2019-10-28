@@ -53,5 +53,11 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+  <key>NSCalendarsUsageDescription</key>
+	<string>Add upcoming shifts to your calendar by enabling calendar access.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take a great profile picture or snap your certification using the camera.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Qwick does not use information from your contacts for any purposes.</string>
 </dict>
 </plist>

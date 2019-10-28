@@ -4993,6 +4993,11 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
   integrity sha512-gbBVYR2p8mnriqAwWx9LbuUrShnAuSCNnuPGyc7GJrMVQtPDAh8iLpv7FRuMPFb56KkaVZIYSz1PrjI9q0QPCw==
 
+react-native-add-calendar-event@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-add-calendar-event/-/react-native-add-calendar-event-2.3.1.tgz#23749e47833a8262cda3817dddc9b616486309fc"
+  integrity sha512-wEYgqFXyg3KXsqBQjU6sWcdM/oidgC4xHWjJVC+bUaVTg05kaOLgzxAG16K6MUHjfQmDZK1WfoGFkiFFbNVvVA==
+
 react-native@0.61.2:
   version "0.61.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.61.2.tgz#987b91b063557f8ebec803fdfea2044a24bdbe4d"

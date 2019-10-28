@@ -8,6 +8,7 @@
 
 import React from 'react';
 import {
+  Button,
   SafeAreaView,
   StyleSheet,
   ScrollView,
@@ -24,6 +25,25 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import * as AddCalendarEvent from "react-native-add-calendar-event";
+
+const eventConfig = {
+  title: "fish"
+  // and other options
+};
+
+
+
+const onButton = () => {
+  AddCalendarEvent.presentEventCreatingDialog(eventConfig)
+  .then((eventInfo) => {
+    console.warn(JSON.stringify(eventInfo));
+  })
+  .catch((error: string) => {
+    console.warn(error);
+  });
+
+}
 const App: () => React$Node = () => {
   return (
     <>
@@ -63,6 +83,10 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionDescription}>
                 Read the docs to discover what to do next:
               </Text>
+              <Button
+            title="Left button"
+            onPress={onButton}
+          />
             </View>
             <LearnMoreLinks />
           </View>
